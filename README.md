@@ -15,7 +15,7 @@ positional arguments:
 optional arguments:
   -h, --help         show this help message and exit
   -r, --recursive    process images in subdirectories
-  --width W          maximal width of the thumbnail
-  --height H         maximal height of the thumbnail
+  -W X, --width X    maximal width of the thumbnail [default: 300]
+  -H Y, --height Y   maximal height of the thumbnail [default: 300]
   -e EXT, --ext EXT  process only images with given extension
 ```

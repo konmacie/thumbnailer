@@ -94,12 +94,12 @@ if __name__ == "__main__":
     parser.add_argument('-r', '--recursive', dest='recursive',
                         help='process images in subdirectories',
                         action='store_true')
-    parser.add_argument('--width', dest='width',
-                        type=int, metavar='W',
-                        help='maximal width of the thumbnail')
-    parser.add_argument('--height', dest='height',
-                        type=int, metavar='H',
-                        help='maximal height of the thumbnail')
+    parser.add_argument('-W', '--width', dest='width',
+                        type=int, metavar='X',
+                        help='maximal width of the thumbnail [default: 300]')
+    parser.add_argument('-H', '--height', dest='height',
+                        type=int, metavar='Y',
+                        help='maximal height of the thumbnail [default: 300]')
     parser.add_argument('-e', '--ext', dest='ext',
                         type=str, metavar='EXT',
                         help='process only images with given extension')
